@@ -19,7 +19,7 @@ public class Cau1_Fibonacy {
         int n = sc.nextInt(); // sc.nextInt() là cách để lấy giá trị từ //bàn phím, nó sẽ chờ tới khi chúng ta nhập một số.
         int[] arr = new int[93];// khởi tạo mảng arr
         arr[1]= 1;
-        arr[2] =1;
+        arr[2] = 1;
         
         for (int i = 3; i <= 92 ; i++) {
             arr[i] = arr[i-1] + arr[i-2];  
